@@ -72,7 +72,7 @@
         <!-- CTA Buttons -->
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="#pdf-section" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-sky text-brand-navy font-bold text-base px-8 py-3.5 rounded-xl hover:bg-brand-skyHover transition-all glow-effect">
-            <span>📚 Download Chapter 9 Notes</span>
+            <span>📚 Browse All Chapter Notes</span>
           </a>
           <a href="#ai-assistant" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-slate border border-brand-border hover:border-brand-sky/40 text-slate-200 hover:text-white font-semibold text-base px-6 py-3.5 rounded-xl transition-all">
             <span>⚡ Open AI Doubt Helper</span>
@@ -93,10 +93,10 @@
             <h2 class="text-2xl font-bold text-white flex items-center gap-2">
               <span>📖</span> Class 8th Study Notes
             </h2>
-            <p class="text-xs text-brand-textMuted mt-1">Official chapter master guide — download directly to your phone or PC.</p>
+            <p class="text-xs text-brand-textMuted mt-1">Official chapter master guides — download directly to your phone or PC.</p>
           </div>
           <span class="text-xs font-semibold px-3 py-1 bg-green-500/10 text-green-400 border border-green-500/20 rounded-full w-fit">
-            ✓ Direct GitHub Link • No Ads
+            ✓ Direct GitHub Links • No Ads
           </span>
         </div>
 
@@ -104,19 +104,41 @@
           <!-- Subject Heading -->
           <div class="pt-2 pb-1">
             <h3 class="text-sm font-bold uppercase tracking-wider text-brand-sky flex items-center gap-2">
-              <span>🔬</span> General Science
+              <span>🔬</span> General Science (Unit 2)
             </h3>
           </div>
 
-          <!-- Chapter 9 Science: Disaster Management -->
+          <!-- Chapter 10 Science: Cell and Cell Organelles -->
           <div class="bg-brand-card p-4 sm:p-5 rounded-xl border-2 border-brand-sky/60 shadow-lg shadow-brand-sky/10 flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:border-brand-sky transition-all relative">
             <span class="absolute -top-3 right-4 px-2 py-0.5 rounded-full bg-brand-sky text-brand-navy font-bold text-[10px] uppercase tracking-wider">
-              Live Download
+              New Upload
             </span>
             <div>
               <div class="flex items-center gap-2 text-[11px] font-semibold text-brand-sky mb-1">
-                <span class="bg-brand-sky/20 text-brand-sky px-2 py-0.5 rounded">Chapter 9</span>
+                <span class="bg-brand-sky/20 text-brand-sky px-2 py-0.5 rounded">Chapter 10</span>
                 <span class="text-slate-300 font-medium">Science Master Guide</span>
+              </div>
+              <h4 class="text-base sm:text-lg font-bold text-white">Cell and Cell Organelles</h4>
+              <p class="text-xs text-brand-textMuted mt-0.5">Plant vs. Animal cell differences, organelle functions (Mitochondria, Plastids, Lysosomes), and 100% solved Balbharati exercises.</p>
+            </div>
+            <div class="flex items-center gap-2 sm:self-center shrink-0">
+              <a href="https://github.com/user-attachments/files/34580395/Class.8.Science.-.Chapter.10.Cell.and.Cell.Organelles.pdf" target="_blank" rel="noopener noreferrer" 
+                 class="px-4 py-2 text-xs font-semibold bg-brand-slate hover:bg-slate-700 text-slate-200 rounded-lg border border-brand-border transition-colors">
+                View Online
+              </a>
+              <a href="https://github.com/user-attachments/files/34580395/Class.8.Science.-.Chapter.10.Cell.and.Cell.Organelles.pdf" target="_blank" rel="noopener noreferrer" 
+                 class="px-5 py-2 text-xs font-bold bg-brand-sky hover:bg-brand-skyHover text-brand-navy rounded-lg transition-colors flex items-center gap-1.5 shadow-md shadow-brand-sky/20">
+                <span>Download PDF</span> &darr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Chapter 9 Science: Disaster Management -->
+          <div class="bg-brand-card p-4 sm:p-5 rounded-xl border border-brand-border flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:border-brand-sky/40 transition-all">
+            <div>
+              <div class="flex items-center gap-2 text-[11px] font-semibold text-brand-sky mb-1">
+                <span class="bg-brand-sky/10 px-2 py-0.5 rounded">Chapter 9</span>
+                <span class="text-slate-400">Science Master Guide</span>
               </div>
               <h4 class="text-base sm:text-lg font-bold text-white">Disaster Management</h4>
               <p class="text-xs text-brand-textMuted mt-0.5">Earthquakes (causes & effects), Landslides, Fire safety protocols, First-aid measures, and Balbharati exercise solutions.</p>
@@ -226,7 +248,7 @@
     let selectedMimeType = null;
 
     // Put your Cloudflare Worker URL here:
-    const WORKER_URL = "https://mahastudy-api.bhatkarsharmila18.workers.dev/";
+    const WORKER_URL = "https://mahastudy-api.yourusername.workers.dev";
 
     function handleFileSelect(e) {
       const file = e.target.files[0];
@@ -307,5 +329,5 @@
   </script>
 
 </body>
-              </html>
-              
+            </html>
+            
